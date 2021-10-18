@@ -1,0 +1,17 @@
+[04-Oct-2021 20:26:19 UTC] Erreur de la base de données WordPress Duplicate entry '1' for key 'PRIMARY' pour la requête INSERT INTO `bruh_bruh_like` (`id`, `usager_id`, `_date`) VALUES (1, 1, '2001-08-02 06:38:00') faite par require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, check_theme_switched, do_action('after_switch_theme'), WP_Hook->do_action, WP_Hook->apply_filters, thierry_creer_tables
+[04-Oct-2021 20:26:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function monprefixe_log_debug() in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-content\themes\thierry\functions.php:182
+Stack trace:
+#0 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\class-wp-hook.php(305): thierry_creer_tables('Hitchcock')
+#1 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\theme.php(3301): do_action('after_switch_th...', 'Hitchcock', Object(WP_Theme))
+#4 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\class-wp-hook.php(303): check_theme_switched('')
+#5 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\plu in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-content\themes\thierry\functions.php on line 182
+[04-Oct-2021 20:26:27 UTC] PHP Notice:  Undefined index: index_type in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-admin\includes\upgrade.php on line 2825
+[04-Oct-2021 20:26:27 UTC] PHP Notice:  Undefined index: index_name in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-admin\includes\upgrade.php on line 2831
+[04-Oct-2021 20:26:27 UTC] PHP Notice:  Undefined index: index_columns in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-admin\includes\upgrade.php on line 2834
+[04-Oct-2021 20:26:27 UTC] PHP Notice:  Undefined index: column_name in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-admin\includes\upgrade.php on line 2863
+[04-Oct-2021 20:26:27 UTC] Erreur de la base de données WordPress You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(``)' at line 1 pour la requête ALTER TABLE bruh_bruh_like ADD  `` (``) faite par require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, check_theme_switched, do_action('after_switch_theme'), WP_Hook->do_action, WP_Hook->apply_filters, thierry_creer_tables, dbDelta
+[05-Oct-2021 12:11:55 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\class-wp-http-requests-response.php on line 17
+[07-Oct-2021 17:53:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\Program Files\Ampps\www\wordpress2021-nadeauthierry\wp-includes\blocks.php on line 202
